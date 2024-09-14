@@ -10,12 +10,10 @@ function Search() {
 
 function App() {
   return (
-    <div className="App">
       <div className='container'>
         <Search />
         <MessageList/>
       </div>
-    </div>
   );
 }
 
