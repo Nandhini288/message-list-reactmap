@@ -11,7 +11,7 @@ function Search() {
 function App() {
   return (
       <div className='container'>
-        <Search />
+        <Search/>
         <MessageList/>
       </div>
   );

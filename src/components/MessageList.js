@@ -36,9 +36,11 @@ var message = [
 function MessageList() {
     return (
         <>
-            {message.map((item) => {
+            {
+            message.map((item) => {
                 return <Message image={item.image} name={item.name} message={item.message} time={item.time}/>
-            })}
+            })
+            }
         </>
     );
 }
